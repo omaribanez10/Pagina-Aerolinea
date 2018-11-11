@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Registro</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style1.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script> 
+<script type="text/javascript" src="js/Myriad_Pro_italic_600.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_italic_400.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
+	<script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="body1">
+	<div class="main">
+<!-- header -->
+		<header>
+			<div class="wrapper">
+				<h1>
+					<a href="index.html" id="logo">Aerolinea</a><span id="slogan">Todo se cae</span>
+				</h1>
+				<div class="right">
+					<nav>
+						<ul id="top_nav">
+							<li><a href="index.html"><img src="images/img1.gif" alt=""></a></li>
+							<li><a href="contacto.html"><img src="images/img2.gif" alt=""></a></li>
+							<li class="bg_none"><a href="#"><img src="images/img3.gif" alt=""></a></li>
+						</ul>
+					</nav>
+					<nav>
+						<ul id="menu">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="aerolineas.html">Aerolineas</a></li>
+							<li><a href="login.html">Ingresa</a></li>
+							<li><a href="registro.html">Registrate</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	</div>
+</div>
+<!-- / header -->
+<div class="fondo">
+<section>
+		<div id='textoPr'>
+		
+		<form method="post" action="reg1.php">
+
+		<tr>
+		<td><label for='nombre'>Nombre:</label></td>
+		<td><input type='text' name='nombreCliente' placeholder='Escribe tu nombre' required></td>
+		</tr>
+
+		
+        <tr>
+		<td><label for='cedula'>Cedula:</label></td>
+		<td><input type='number' name='idCliente' placeholder='Escribe tu cedula' required></td>
+		</tr>
+
+        <tr>
+		<td><label for='Telefono'>Telefono:</label></td>
+		<td><input type='number' name='telefonoCliente' placeholder='Escribe tu numero telefonico' min='0'></td>
+		</tr>
+        
+        <tr>
+        <td><label for='correo'>Correo Electronico:</label></td>
+        <td><input type='email' name='mailCliente' placeholder='example@example.com' min="0" max="100"></td>
+        </tr>	
+
+        <tr>
+        <td><label for='pass'>Contrase&ntilde;a:</label></td>
+        <td><input type='password' name='contrasenaCliente' placeholder='**************' min='0' max='100'></td>	
+        </tr>
+
+        <tr>
+		 <td><input type='submit' e="submit" value='Registrar' name="submit"></td>
+		</tr>
+		</form>
+		</div>
+</section>
+</div>
+
+<div class="body2">
+	<div class="main">
+<!-- footer -->
+		<footer>
+			<a >Aerolinea todo se cae</a><br>
+			<a >2017</a>
+		</footer>
+<!-- / footer -->
+	</div>
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

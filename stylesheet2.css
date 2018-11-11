@@ -1,0 +1,85 @@
+body
+{
+	background-image: url("images/fondo-avion.jpg");
+	font-family:"Helvetica",Arial;
+}
+#contenido
+{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+h1
+{
+	color:#ffffff;
+	font-family: 'Coiny', cursive;
+}
+header hgroup h1
+{
+	border-bottom:solid;
+	padding-bottom:10px;
+	border-width:1px;
+	border-color:#ffffff;
+	text-shadow:0px 0px 30px rgba(0,0,0,0,5);
+}
+
+nav ul li a
+{
+        text-decoration:none;
+}
+#textoPr
+{
+	width:600px;
+	height:350px;
+	background-color:#1d1d1d;
+	color:#FFF;
+	margin:0 auto;
+	text-align:left;
+	border-radius:20px;
+	padding:20px;
+	box-shadow:0px 0px 20px rgba(0,0,0,0,5);
+}
+a
+{
+	color:#ffffff;
+	font-weight:bold;
+}
+meter
+{
+background-color:#FFF;
+padding:5px;
+color:#e44e2d;
+margin-left:20px;
+width:200px;
+}
+label
+{
+display: block;
+}
+#btnSubmit
+{
+border:none;
+background-color:#FFF;
+color:#e44e2d;
+padding: 4px;
+margin: 20px;
+cursor: pointer;
+font-family: 'Coiny', cursive;
+}
+#calificacion
+{
+width:150px
+-webkit-appearance:none;
+background-color:#FFF;
+height:20px;
+border-radius:5px;
+cursor: pointer;
+}
+#calificacion::-webkit-slider-thumb
+{
+-webkit-appearance:none;
+background-color:#e44e2d;
+border-radius:10px;
+height:15px;
+width:10px;
+}

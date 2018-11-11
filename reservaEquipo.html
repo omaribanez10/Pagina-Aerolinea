@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Reserva de Vuelo</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style1.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script> 
+<script type="text/javascript" src="js/Myriad_Pro_italic_600.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_italic_400.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
+	<script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="body1">
+	<div class="main">
+<!-- header -->
+		<header>
+			<div class="wrapper">
+				<h1>
+					<a href="index.html" id="logo">Aerolinea</a><span id="slogan">Todo se cae</span>
+				</h1>
+				<div class="right">
+					<nav>
+						<ul id="top_nav">
+							<li><a href="index.html"><img src="images/img1.gif" alt=""></a></li>
+							<li><a href="contacto.html"><img src="images/img2.gif" alt=""></a></li>
+							<li class="bg_none"><a href="#"><img src="images/img3.gif" alt=""></a></li>
+						</ul>
+					</nav>
+					<nav>
+						<ul id="menu">
+							<li><a href="index1.html">Inicio</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+							<li><a href="index.html">Salir</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	</div>
+</div>
+<!-- / header -->
+<div class="fondo">
+<section>
+		<div id='textoPr'>
+		
+		<form method="post" action="reserva.php">
+
+        <tr>
+		<td><label for='cedula'>Cedula:</label></td>
+		<td><input type='number' name='idCliente' placeholder='Escribe tu cedula' required></td>
+		</tr>
+
+		<tr>
+		<td><label for='nombre'>Nombre:</label></td>
+		<td><input type='text' name='nombreCliente' placeholder='Escribe tu nombre' required></td>
+		</tr>
+
+        <tr>
+		<td><label for='lugarSalida'>Lugar Salida:</label></td>
+		<td><input type='text' name='lugarSalida' placeholder='Lugar de salida' required=""></td>
+		</tr>
+        
+        <tr>
+        <td><label for='lugarDestino'>Lugar Destino:</label></td>
+        <td><input type='text' name='lugarDestino' placeholder='Lugar lugarDestino' required=""></td>
+        </tr>	
+        
+         <tr>
+        <td><label for='fechaSalida'>Fecha Salida:</label></td>
+        <td><input type='text' name='fechaSalida' placeholder='dd/mm/yyyy' required=""></td>	
+        </tr>
+
+        <tr>
+        <td><label for='numeroPasajeros'>Numero de pasajeros:</label></td>
+        <td><input type='number' name='numeroPasajeros' placeholder='' min='0' max='10'></td>	
+        </tr>
+
+        <tr>
+        <td><label for='numeroAsiento'>Numero de asientos:</label></td>
+        <td><input type='number' name='numeroAsiento' placeholder='' min='0' max='10'></td>	
+        </tr>
+        
+
+        <tr>
+		 <td><input type='submit' e="submit" value='Reservar' name="submit"></td>
+		</tr>
+		</form>
+		</div>
+</section>
+</div>
+
+<div class="body2">
+	<div class="main">
+<!-- footer -->
+		<footer>
+			<a >Aerolinea todo se cae</a><br>
+			<a >2017</a>
+		</footer>
+<!-- / footer -->
+	</div>
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>
